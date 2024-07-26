@@ -1,0 +1,96 @@
+.bg{
+    background: linear-gradient(150deg, rgb(1, 1, 75), black);
+}
+
+.section{
+    display: flex;
+    padding-inline: 1.25rem;
+    overflow: hidden;
+    max-width: 1280px;
+    margin-inline: auto;
+    overflow-y: scroll;
+    overflow: hidden;
+       
+    
+}
+
+
+.bloco__1, .bloco__2{
+    
+    flex: 1;
+}
+
+.h1__bloco-1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    letter-spacing: -0.01em;
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+
+.bloco__1-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #ffffffc3;
+    line-height: calc(1em + 0.5rem);
+    font-size: 1.1rem;
+    font-style: normal;
+    margin-block: 1.5rem;
+    max-width: 50ch;
+}
+
+.bloco__1-button{
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+    padding: 1em 2em;   
+    background: linear-gradient(to right, rgb(238, 12, 155), rgb(243, 104, 11));
+    border-radius: 10px;
+    border-color: rgb(238, 12, 155);
+    
+}
+
+.bloco__2-img{
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+.header__icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: black;
+    border-color: black;
+}
+
+@media (width < 930px) {
+    .section{
+        flex-direction: column;
+    } 
+    }
+@media (width < 1238px){
+    .section__2{
+        flex-direction: column-reverse;
+        }
+}
+
+.h1__bloco-1, .bloco2-title{
+        max-width: 20ch;
+
+}
+.bloco__2-img, .bloco1-img{
+        width: 100%;
+        max-width: 500px;
+         margin-inline: auto;        
+}
+
+    @media (width < 475px) {
+        .h1__bloco-1, .bloco2-title{
+            font-size: 2.5rem;
+        }
+}
+
+
+
+
